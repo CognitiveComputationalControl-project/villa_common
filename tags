@@ -1,0 +1,127 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CONFIG	villa_helpers/src/villa_helpers/groovy_motion.py	/^CONFIG = {$/;"	v
+CountdownTimer	villa_helpers/scripts/countdown_timer_visualizer	/^class CountdownTimer:$/;"	c
+FILE_NAME	report_generation/scripts/report_generator	/^FILE_NAME = ""$/;"	v
+FastMove	villa_helpers/src/villa_helpers/fast_move.py	/^class FastMove(object):$/;"	c
+GroovyMotion	villa_helpers/src/villa_helpers/groovy_motion.py	/^class GroovyMotion(object):$/;"	c
+ImageToPDF	report_generation/scripts/report_generator	/^def ImageToPDF(image, name):$/;"	f
+JointLimitException	villa_helpers/src/villa_helpers/groovy_motion.py	/^class JointLimitException(Exception):$/;"	c
+SAVE_NAME	report_generation/scripts/report_generator	/^SAVE_NAME = ""$/;"	v
+SAVE_PATH	report_generation/scripts/report_generator	/^SAVE_PATH = ""$/;"	v
+StringOnImage	report_generation/scripts/report_generator	/^def StringOnImage(stringFile, imageFile, result):$/;"	f
+TimeoutException	villa_helpers/src/villa_helpers/groovy_motion.py	/^class TimeoutException(Exception):$/;"	c
+VLogger	villa_helpers/scripts/vlogger	/^class VLogger(object):$/;"	c
+__construct_future	villa_helpers/src/villa_helpers/groovy_motion.py	/^    def __construct_future(self, client, joint_names, target_positions):$/;"	m	class:GroovyMotion	file:
+__euclid_dist	villa_helpers/src/villa_helpers/fast_move.py	/^    def __euclid_dist(self, p1, p2):$/;"	m	class:FastMove	file:
+__global_pose_cb	villa_helpers/src/villa_helpers/fast_move.py	/^    def __global_pose_cb(self, pose):$/;"	m	class:FastMove	file:
+__init__	villa_helpers/scripts/countdown_timer_visualizer	/^    def __init__(self, start_stamp, duration, position, frame_id):$/;"	m	class:CountdownTimer
+__init__	villa_helpers/scripts/vlogger	/^    def __init__(self, base_dir):$/;"	m	class:VLogger
+__init__	villa_helpers/src/villa_helpers/fast_move.py	/^    def __init__(self, omni_base):$/;"	m	class:FastMove
+__init__	villa_helpers/src/villa_helpers/groovy_motion.py	/^    def __init__(self):$/;"	m	class:GroovyMotion
+__mkdirp	villa_helpers/scripts/vlogger	/^    def __mkdirp(self, path):$/;"	m	class:VLogger	file:
+__quaternion_dist	villa_helpers/src/villa_helpers/fast_move.py	/^    def __quaternion_dist(self, q1, q2):$/;"	m	class:FastMove	file:
+_cb	villa_helpers/src/villa_helpers/groovy_motion.py	/^        def _cb(data):$/;"	f	function:GroovyMotion.__init__
+armBindings	villa_teleop/scripts/keyboard_teleop	/^armBindings = {$/;"	v
+base	villa_demos/scripts/example_move.py	/^base = robot.try_get('omni_base')$/;"	v
+base	villa_demos/scripts/example_speech.py	/^base = robot.try_get('omni_base')$/;"	v
+basic_info	report_generation/scripts/report_generator	/^def basic_info(path, tryNum):$/;"	f
+bridge	villa_helpers/scripts/capture_images	/^bridge = CvBridge()$/;"	v
+callback	villa_helpers/scripts/get_battery_state_value	/^def callback(data):$/;"	f
+camera_topics	villa_helpers/scripts/capture_images	/^camera_topics = {"\/hsrb\/hand_camera\/image_rect": "hand",$/;"	v
+capture_next	villa_helpers/scripts/capture_images	/^capture_next = None$/;"	v
+configure_compliance	villa_helpers/src/villa_helpers/groovy_motion.py	/^    def configure_compliance(self, setting): $/;"	m	class:GroovyMotion
+construct_marker	villa_helpers/scripts/countdown_timer_visualizer	/^def construct_marker(timer_id, seconds_left, position, frame_id):$/;"	f
+convertImage	report_generation/scripts/report_generator	/^def convertImage(message):$/;"	f
+count	villa_helpers/scripts/capture_images	/^count = 0$/;"	v
+countdown_labels_pub	villa_helpers/scripts/countdown_timer_visualizer	/^    countdown_labels_pub = rospy.Publisher("countdown_timers", MarkerArray, queue_size=10)$/;"	v
+current_count	villa_demos/scripts/example_speech.py	/^        current_count = i+1$/;"	v
+dvorakTranslator	villa_teleop/scripts/keyboard_teleop	/^dvorakTranslator = {'a': 'a',$/;"	v
+execute_trajectory	villa_helpers/src/villa_helpers/groovy_motion.py	/^    def execute_trajectory(self, trajectory):$/;"	m	class:GroovyMotion
+fileType	report_generation/scripts/report_generator	/^fileType = ".pdf"$/;"	v
+finished	villa_helpers/scripts/countdown_timer_visualizer	/^    def finished(self):$/;"	m	class:CountdownTimer
+fm	villa_helpers/src/villa_helpers/fast_move.py	/^    fm = FastMove(omni_base)$/;"	v	class:FastMove
+format_countdown	villa_helpers/scripts/countdown_timer_visualizer	/^def format_countdown(timedelta):$/;"	f
+getKey	villa_demos/scripts/teleop_twist_keyboard.py	/^def getKey():$/;"	f
+getKey	villa_helpers/scripts/capture_images	/^def getKey():$/;"	f
+getKey	villa_teleop/scripts/keyboard_teleop	/^def getKey(translator=None):$/;"	f
+get_marker	villa_helpers/scripts/countdown_timer_visualizer	/^    def get_marker(self):$/;"	m	class:CountdownTimer
+get_next_free_index	villa_helpers/scripts/capture_images	/^def get_next_free_index(path, prefixes):$/;"	f
+go	villa_helpers/src/villa_helpers/fast_move.py	/^    def go(self, x, y, yaw, timeout=0.0, relative=False, angular_thresh=10.0, spatial_thresh=0.1):$/;"	m	class:FastMove
+go_pose	villa_teleop/scripts/keyboard_teleop	/^go_pose = {"arm": [0, 0, -1.57, -1.57, 0], "head": [0, 0]}$/;"	v
+go_to	villa_demos/scripts/example_move.py	/^def go_to(x,y,theta=0):$/;"	f
+goal_list	villa_demos/scripts/example_move.py	/^goal_list = [ (0.5, 0.5,-3.14\/4.0), (0,0,0), (0.5, -0.5, 3.14\/4.0), (0,0,0) ]$/;"	v
+handBindings	villa_teleop/scripts/keyboard_teleop	/^handBindings = {$/;"	v
+headBindings	villa_teleop/scripts/keyboard_teleop	/^headBindings = {$/;"	v
+image_callback	villa_helpers/scripts/capture_images	/^def image_callback(msg):$/;"	f
+inch	report_generation/scripts/report_generator	/^inch = 72$/;"	v
+keypath	villa_helpers/scripts/get_battery_state_value	/^keypath = None$/;"	v
+latest_positions	villa_teleop/scripts/keyboard_teleop	/^latest_positions = None$/;"	v
+listener	villa_helpers/scripts/get_battery_state_value	/^def listener():$/;"	f
+log	villa_helpers/scripts/vlogger	/^    def log(self, req):$/;"	m	class:VLogger
+look_ahead_photo_pose	villa_teleop/scripts/keyboard_teleop	/^look_ahead_photo_pose = {"arm": [0.00, 0.00, 0.00, -1.51, 1.60], "head": [0.0, 0.0]}$/;"	v
+look_right_from_above_photo_pose	villa_teleop/scripts/keyboard_teleop	/^look_right_from_above_photo_pose = {"arm": [0.60, -0.42, -1.55, -1.57, 2.05], "head": [-1.5, -0.9]}$/;"	v
+look_right_photo_pose	villa_teleop/scripts/keyboard_teleop	/^look_right_photo_pose = {"arm": [0.30, -0.42, -1.55, -1.57, 2.05], "head": [-1.5, -0.40]}$/;"	v
+main	report_generation/scripts/report_generator	/^def main():$/;"	f
+main	villa_helpers/scripts/vlogger	/^def main():$/;"	f
+make_filename	villa_helpers/scripts/capture_images	/^def make_filename(prefix, count):$/;"	f
+make_pdf_file	report_generation/scripts/report_generator	/^def make_pdf_file(output_filename,name, np, date, tryNum):$/;"	f
+marker_array	villa_helpers/scripts/countdown_timer_visualizer	/^        marker_array = MarkerArray()$/;"	v
+mergeMultiplePDFs	report_generation/scripts/report_generator	/^def mergeMultiplePDFs(initial, combinedName, outputName, items):$/;"	f
+mergePDFs	report_generation/scripts/report_generator	/^def mergePDFs(inputFile1,inputFile2, outputFile):$/;"	f
+move	villa_helpers/src/villa_helpers/fast_move.py	/^    def move(self, pose, timeout=0, ref_frame_id=None, angular_thresh=10.0, spatial_thresh=0.1):$/;"	m	class:FastMove
+moveBindings	villa_demos/scripts/teleop_twist_keyboard.py	/^moveBindings = {$/;"	v
+moveBindings	villa_teleop/scripts/keyboard_teleop	/^moveBindings = {$/;"	v
+moveBindingsX	villa_demos/scripts/teleop_twist_keyboard.py	/^moveBindingsX = {$/;"	v
+move_to_joint_positions	villa_helpers/src/villa_helpers/groovy_motion.py	/^    def move_to_joint_positions(self, goals):$/;"	m	class:GroovyMotion
+move_to_pose	villa_teleop/scripts/keyboard_teleop	/^def move_to_pose(pose):$/;"	f
+omni_base	villa_helpers/src/villa_helpers/fast_move.py	/^    omni_base = robot.get('omni_base')$/;"	v	class:FastMove
+output_directory	villa_helpers/scripts/capture_images	/^output_directory = None$/;"	v
+package_dir	report_generation/setup.py	/^    package_dir={'': 'src'},$/;"	v
+package_dir	villa_helpers/setup.py	/^    package_dir={'': 'src'},$/;"	v
+packages	report_generation/setup.py	/^    packages=['report_generation'],$/;"	v
+packages	villa_helpers/setup.py	/^    packages=['villa_helpers'],$/;"	v
+pdfString	report_generation/scripts/report_generator	/^def pdfString(title,words):$/;"	f
+point	report_generation/scripts/report_generator	/^point = 1$/;"	v
+publish_arm	villa_teleop/scripts/keyboard_teleop	/^def publish_arm(lift, flex):$/;"	f
+publish_base_velocity	villa_teleop/scripts/keyboard_teleop	/^def publish_base_velocity(x, y, th):$/;"	f
+publish_gripper	villa_teleop/scripts/keyboard_teleop	/^def publish_gripper(position):$/;"	f
+publish_head	villa_teleop/scripts/keyboard_teleop	/^def publish_head(pan, tilt):$/;"	f
+record_cupboard	report_generation/scripts/report_generator	/^def record_cupboard(req):$/;"	f
+record_final_cupboard	report_generation/scripts/report_generator	/^def record_final_cupboard(req):$/;"	f
+relative_go_to	villa_demos/scripts/example_move.py	/^def relative_go_to(x,y):$/;"	f
+robot	villa_demos/scripts/example_move.py	/^robot = Robot()$/;"	v
+robot	villa_demos/scripts/example_speech.py	/^robot = Robot()$/;"	v
+robot	villa_helpers/src/villa_helpers/fast_move.py	/^    robot = Robot()$/;"	v	class:FastMove
+rotate	villa_demos/scripts/example_move.py	/^def rotate(rads):$/;"	f
+s	villa_helpers/scripts/countdown_timer_visualizer	/^    s = rospy.Service('start_countdown_timer', StartCountdown, start_handler)$/;"	v
+setup_args	report_generation/setup.py	/^setup_args = generate_distutils_setup($/;"	v
+setup_args	villa_helpers/setup.py	/^setup_args = generate_distutils_setup($/;"	v
+speed	villa_demos/scripts/teleop_twist_keyboard.py	/^speed = 0.75$/;"	v
+speedBindings	villa_demos/scripts/teleop_twist_keyboard.py	/^speedBindings={$/;"	v
+speedBindings	villa_teleop/scripts/keyboard_teleop	/^speedBindings = {$/;"	v
+start_handler	villa_helpers/scripts/countdown_timer_visualizer	/^def start_handler(req):$/;"	f
+start_theta	villa_demos/scripts/example_move.py	/^start_theta = base.pose[2]$/;"	v
+start_x	villa_demos/scripts/example_move.py	/^start_x = base.pose[0]$/;"	v
+start_y	villa_demos/scripts/example_move.py	/^start_y = base.pose[1]$/;"	v
+states_cb	villa_teleop/scripts/keyboard_teleop	/^def states_cb(msg):$/;"	f
+stop_all	villa_teleop/scripts/keyboard_teleop	/^def stop_all():$/;"	f
+strafeBindings	villa_teleop/scripts/keyboard_teleop	/^strafeBindings = {$/;"	v
+timers	villa_helpers/scripts/countdown_timer_visualizer	/^        timers = valid_timers$/;"	v
+timers	villa_helpers/scripts/countdown_timer_visualizer	/^timers = {}$/;"	v
+timers_lock	villa_helpers/scripts/countdown_timer_visualizer	/^timers_lock = Lock()$/;"	v
+tts	villa_demos/scripts/example_move.py	/^tts = robot.try_get('default_tts')$/;"	v
+tts	villa_demos/scripts/example_speech.py	/^tts = robot.try_get('default_tts')$/;"	v
+turn	villa_demos/scripts/teleop_twist_keyboard.py	/^turn = 0.5$/;"	v
+unsafe_move_arm_to_neutral	villa_helpers/src/villa_helpers/groovy_motion.py	/^    def unsafe_move_arm_to_neutral(self):$/;"	m	class:GroovyMotion
+unsafe_move_to_neutral	villa_helpers/src/villa_helpers/groovy_motion.py	/^    def unsafe_move_to_neutral(self):$/;"	m	class:GroovyMotion
+valid_timers	villa_helpers/scripts/countdown_timer_visualizer	/^        valid_timers = {}$/;"	v
+vels	villa_demos/scripts/teleop_twist_keyboard.py	/^def vels(speed,turn):$/;"	f
+vels	villa_teleop/scripts/keyboard_teleop	/^def vels(linear, angular):$/;"	f
+wait	villa_helpers/src/villa_helpers/groovy_motion.py	/^        def wait(timeout):$/;"	f	function:GroovyMotion.__construct_future
+whole_body	villa_demos/scripts/example_move.py	/^whole_body = robot.try_get('whole_body')$/;"	v
+whole_body	villa_demos/scripts/example_speech.py	/^whole_body = robot.try_get('whole_body')$/;"	v
