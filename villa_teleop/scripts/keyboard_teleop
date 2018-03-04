@@ -125,12 +125,14 @@ dvorakTranslator = {'a': 'a',
                     ']': '='
                     }
 
-go_pose = {"arm": [0, 0, -1.57, -1.57, 0], "head": [0, 0]}
+go_pose = {"arm": [0, 0, -1.57, -1.57, 0], "head": [0, 0],"gripper": [0.0]}
 
 # Body raised, head turned right, arm raised and pointed toward right. Wrist rotated floor parallel
-look_right_photo_pose = {"arm": [0.30, -0.42, -1.55, -1.57, 2.05], "head": [-1.5, -0.40]}
-look_right_from_above_photo_pose = {"arm": [0.60, -0.42, -1.55, -1.57, 2.05], "head": [-1.5, -0.9]}
-look_ahead_photo_pose = {"arm": [0.00, 0.00, 0.00, -1.51, 1.60], "head": [0.0, 0.0]}
+# [ arm lift / flex /roll /wrist flex / wrist_roll ] head [ pan / tilt] 
+look_right_photo_pose = {"arm": [0.30, -0.42, -1.55, -1.57, 2.05], "head": [-1.5, -0.40],"gripper": [0.0]}
+look_right_from_above_photo_pose = {"arm": [0.60, -0.42, -1.55, -1.57, 2.05], "head": [-1.5, -0.9],"gripper": [0.0]}
+look_ahead_photo_pose = {"arm": [0.00, 0.00, 0.00, -1.51, 1.60], "head": [0.0, 0.0],"gripper": [0.0]}
+selfie_pose = {"arm": [0.21194683, -0.92 ,  3.1797, -1.8999, 0.001], "head": [0.352, -0.419], "gripper": [1.1]}
 
 def getKey(translator=None):
     fd = sys.stdin.fileno()
@@ -208,8 +210,9 @@ def move_to_pose(pose):
     p.velocities = [0, 0, 0, 0, 0]
     p.time_from_start = rospy.Time(3)
     traj.points = [p]
-    publish_head(pose["head"][0], pose["head"][1])
     armPub.publish(traj)
+    publish_head(pose["head"][0], pose["head"][1])
+    publish_gripper(pose["gripper"][0])
 
 
 def stop_all():
@@ -313,6 +316,8 @@ if __name__ == "__main__":
             move_to_pose(look_right_from_above_photo_pose)
         elif key == '4':
             move_to_pose(look_ahead_photo_pose)
+        elif key == '5':
+            move_to_pose(selfie_pose)
         elif key == '\x03':
             # Break on Control C
             break

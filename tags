@@ -52,7 +52,7 @@ getKey	villa_teleop/scripts/keyboard_teleop	/^def getKey(translator=None):$/;"	f
 get_marker	villa_helpers/scripts/countdown_timer_visualizer	/^    def get_marker(self):$/;"	m	class:CountdownTimer
 get_next_free_index	villa_helpers/scripts/capture_images	/^def get_next_free_index(path, prefixes):$/;"	f
 go	villa_helpers/src/villa_helpers/fast_move.py	/^    def go(self, x, y, yaw, timeout=0.0, relative=False, angular_thresh=10.0, spatial_thresh=0.1):$/;"	m	class:FastMove
-go_pose	villa_teleop/scripts/keyboard_teleop	/^go_pose = {"arm": [0, 0, -1.57, -1.57, 0], "head": [0, 0]}$/;"	v
+go_pose	villa_teleop/scripts/keyboard_teleop	/^go_pose = {"arm": [0, 0, -1.57, -1.57, 0], "head": [0, 0],"gripper": [0.0]}$/;"	v
 go_to	villa_demos/scripts/example_move.py	/^def go_to(x,y,theta=0):$/;"	f
 goal_list	villa_demos/scripts/example_move.py	/^goal_list = [ (0.5, 0.5,-3.14\/4.0), (0,0,0), (0.5, -0.5, 3.14\/4.0), (0,0,0) ]$/;"	v
 handBindings	villa_teleop/scripts/keyboard_teleop	/^handBindings = {$/;"	v
@@ -63,9 +63,9 @@ keypath	villa_helpers/scripts/get_battery_state_value	/^keypath = None$/;"	v
 latest_positions	villa_teleop/scripts/keyboard_teleop	/^latest_positions = None$/;"	v
 listener	villa_helpers/scripts/get_battery_state_value	/^def listener():$/;"	f
 log	villa_helpers/scripts/vlogger	/^    def log(self, req):$/;"	m	class:VLogger
-look_ahead_photo_pose	villa_teleop/scripts/keyboard_teleop	/^look_ahead_photo_pose = {"arm": [0.00, 0.00, 0.00, -1.51, 1.60], "head": [0.0, 0.0]}$/;"	v
-look_right_from_above_photo_pose	villa_teleop/scripts/keyboard_teleop	/^look_right_from_above_photo_pose = {"arm": [0.60, -0.42, -1.55, -1.57, 2.05], "head": [-1.5, -0.9]}$/;"	v
-look_right_photo_pose	villa_teleop/scripts/keyboard_teleop	/^look_right_photo_pose = {"arm": [0.30, -0.42, -1.55, -1.57, 2.05], "head": [-1.5, -0.40]}$/;"	v
+look_ahead_photo_pose	villa_teleop/scripts/keyboard_teleop	/^look_ahead_photo_pose = {"arm": [0.00, 0.00, 0.00, -1.51, 1.60], "head": [0.0, 0.0],"gripper": [0.0]}$/;"	v
+look_right_from_above_photo_pose	villa_teleop/scripts/keyboard_teleop	/^look_right_from_above_photo_pose = {"arm": [0.60, -0.42, -1.55, -1.57, 2.05], "head": [-1.5, -0.9],"gripper": [0.0]}$/;"	v
+look_right_photo_pose	villa_teleop/scripts/keyboard_teleop	/^look_right_photo_pose = {"arm": [0.30, -0.42, -1.55, -1.57, 2.05], "head": [-1.5, -0.40],"gripper": [0.0]}$/;"	v
 main	report_generation/scripts/report_generator	/^def main():$/;"	f
 main	villa_helpers/scripts/vlogger	/^def main():$/;"	f
 make_filename	villa_helpers/scripts/capture_images	/^def make_filename(prefix, count):$/;"	f
@@ -99,6 +99,7 @@ robot	villa_demos/scripts/example_speech.py	/^robot = Robot()$/;"	v
 robot	villa_helpers/src/villa_helpers/fast_move.py	/^    robot = Robot()$/;"	v	class:FastMove
 rotate	villa_demos/scripts/example_move.py	/^def rotate(rads):$/;"	f
 s	villa_helpers/scripts/countdown_timer_visualizer	/^    s = rospy.Service('start_countdown_timer', StartCountdown, start_handler)$/;"	v
+selfie_pose	villa_teleop/scripts/keyboard_teleop	/^selfie_pose = {"arm": [0.21194683, -0.92 ,  3.1797, -1.8999, 0.001], "head": [0.352, -0.419], "gripper": [1.1]}$/;"	v
 setup_args	report_generation/setup.py	/^setup_args = generate_distutils_setup($/;"	v
 setup_args	villa_helpers/setup.py	/^setup_args = generate_distutils_setup($/;"	v
 speed	villa_demos/scripts/teleop_twist_keyboard.py	/^speed = 0.75$/;"	v
